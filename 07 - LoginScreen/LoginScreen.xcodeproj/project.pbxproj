@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA76E05E17851528000359A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA76E05D17851528000359A3 /* UIKit.framework */; };
+		FA76E06017851528000359A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA76E05F17851528000359A3 /* Foundation.framework */; };
+		FA76E06217851528000359A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA76E06117851528000359A3 /* CoreGraphics.framework */; };
+		FA76E06817851528000359A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA76E06617851528000359A3 /* InfoPlist.strings */; };
+		FA76E06A17851528000359A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA76E06917851528000359A3 /* main.m */; };
+		FA76E06E17851528000359A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA76E06D17851528000359A3 /* AppDelegate.m */; };
+		FA76E07017851528000359A3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA76E06F17851528000359A3 /* Default.png */; };
+		FA76E07217851528000359A3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA76E07117851528000359A3 /* Default@2x.png */; };
+		FA76E07417851528000359A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA76E07317851528000359A3 /* Default-568h@2x.png */; };
+		FA76E07717851528000359A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA76E07617851528000359A3 /* ViewController.m */; };
+		FA76E07A17851528000359A3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA76E07817851528000359A3 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA76E05A17851528000359A3 /* LoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA76E05D17851528000359A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA76E05F17851528000359A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA76E06117851528000359A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA76E06517851528000359A3 /* LoginScreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginScreen-Info.plist"; sourceTree = "<group>"; };
+		FA76E06717851528000359A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA76E06917851528000359A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA76E06B17851528000359A3 /* LoginScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginScreen-Prefix.pch"; sourceTree = "<group>"; };
+		FA76E06C17851528000359A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA76E06D17851528000359A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA76E06F17851528000359A3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FA76E07117851528000359A3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FA76E07317851528000359A3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FA76E07517851528000359A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA76E07617851528000359A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA76E07917851528000359A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA76E05717851528000359A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA76E05E17851528000359A3 /* UIKit.framework in Frameworks */,
+				FA76E06017851528000359A3 /* Foundation.framework in Frameworks */,
+				FA76E06217851528000359A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA76E05117851528000359A3 = {
+			isa = PBXGroup;
+			children = (
+				FA76E06317851528000359A3 /* LoginScreen */,
+				FA76E05C17851528000359A3 /* Frameworks */,
+				FA76E05B17851528000359A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA76E05B17851528000359A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA76E05A17851528000359A3 /* LoginScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA76E05C17851528000359A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA76E05D17851528000359A3 /* UIKit.framework */,
+				FA76E05F17851528000359A3 /* Foundation.framework */,
+				FA76E06117851528000359A3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA76E06317851528000359A3 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FA76E06C17851528000359A3 /* AppDelegate.h */,
+				FA76E06D17851528000359A3 /* AppDelegate.m */,
+				FA76E07517851528000359A3 /* ViewController.h */,
+				FA76E07617851528000359A3 /* ViewController.m */,
+				FA76E07817851528000359A3 /* ViewController.xib */,
+				FA76E06417851528000359A3 /* Supporting Files */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		FA76E06417851528000359A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA76E06517851528000359A3 /* LoginScreen-Info.plist */,
+				FA76E06617851528000359A3 /* InfoPlist.strings */,
+				FA76E06917851528000359A3 /* main.m */,
+				FA76E06B17851528000359A3 /* LoginScreen-Prefix.pch */,
+				FA76E06F17851528000359A3 /* Default.png */,
+				FA76E07117851528000359A3 /* Default@2x.png */,
+				FA76E07317851528000359A3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA76E05917851528000359A3 /* LoginScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA76E07D17851528000359A3 /* Build configuration list for PBXNativeTarget "LoginScreen" */;
+			buildPhases = (
+				FA76E05617851528000359A3 /* Sources */,
+				FA76E05717851528000359A3 /* Frameworks */,
+				FA76E05817851528000359A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginScreen;
+			productName = LoginScreen;
+			productReference = FA76E05A17851528000359A3 /* LoginScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA76E05217851528000359A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alex Perez";
+			};
+			buildConfigurationList = FA76E05517851528000359A3 /* Build configuration list for PBXProject "LoginScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA76E05117851528000359A3;
+			productRefGroup = FA76E05B17851528000359A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA76E05917851528000359A3 /* LoginScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA76E05817851528000359A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA76E06817851528000359A3 /* InfoPlist.strings in Resources */,
+				FA76E07017851528000359A3 /* Default.png in Resources */,
+				FA76E07217851528000359A3 /* Default@2x.png in Resources */,
+				FA76E07417851528000359A3 /* Default-568h@2x.png in Resources */,
+				FA76E07A17851528000359A3 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA76E05617851528000359A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA76E06A17851528000359A3 /* main.m in Sources */,
+				FA76E06E17851528000359A3 /* AppDelegate.m in Sources */,
+				FA76E07717851528000359A3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA76E06617851528000359A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA76E06717851528000359A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA76E07817851528000359A3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA76E07917851528000359A3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA76E07B17851528000359A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA76E07C17851528000359A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA76E07E17851528000359A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginScreen/LoginScreen-Prefix.pch";
+				INFOPLIST_FILE = "LoginScreen/LoginScreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA76E07F17851528000359A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginScreen/LoginScreen-Prefix.pch";
+				INFOPLIST_FILE = "LoginScreen/LoginScreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA76E05517851528000359A3 /* Build configuration list for PBXProject "LoginScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA76E07B17851528000359A3 /* Debug */,
+				FA76E07C17851528000359A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA76E07D17851528000359A3 /* Build configuration list for PBXNativeTarget "LoginScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA76E07E17851528000359A3 /* Debug */,
+				FA76E07F17851528000359A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA76E05217851528000359A3 /* Project object */;
+}
